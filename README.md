@@ -43,23 +43,23 @@ See the complete inventory:
 
 ## Data Engineering Workflow
 
+The SmartCrop data workflow follows an edge-first and reproducible preprocessing approach.
+
 ```text
 Dataset Research
        ↓
 Dataset Selection
        ↓
-Data Collection
+Raw Dataset
        ↓
-Data Cleaning & Validation
+Image Validation
        ↓
-Preprocessing
+Duplicate Detection
        ↓
-Model Training
+Metadata Manifest
        ↓
-AI Predictions
+Dataset Statistics
        ↓
-Structured Data
+Analytics-Ready Data
        ↓
-Historical Analytics
-       ↓
-Farmer Advisory / Dashboard
+AI Models / Farmer Advisory
