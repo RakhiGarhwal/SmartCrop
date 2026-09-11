@@ -1,0 +1,41 @@
+project:
+  name: SmartCrop
+  purpose: Crop health monitoring and smart farming
+
+datasets:
+
+  wheat:
+    priority: high
+    status: downloaded
+    preprocessing_required: true
+
+  rice:
+    priority: high
+    status: downloaded
+    preprocessing_required: true
+
+  pearl_millet:
+    priority: high
+    status: downloaded
+    preprocessing_required: true
+
+  maize:
+    priority: high
+    status: pending_download
+    preprocessing_required: true
+
+  soybean:
+    priority: medium
+    status: shortlisted
+    preprocessing_required: true
+
+  chickpea:
+    priority: medium
+    status: shortlisted
+    preprocessing_required: true
+
+pipeline:
+  validate_images: true
+  detect_duplicates: true
+  generate_manifest: true
+  generate_statistics: true
