@@ -1,0 +1,4 @@
+file_name,relative_path,width,height,format
+maize_leaf.jpg,maize_leaf.jpg,128,128,JPEG
+rice_disease.png,rice_disease.png,256,256,PNG
+wheat_healthy.jpg,wheat_healthy.jpg,224,224,JPEG
